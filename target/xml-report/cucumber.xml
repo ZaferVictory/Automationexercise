@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="49.335">
+    <testcase classname="Automation Exercise tests" name="User Login" time="48.846">
+        <system-out>
+            <![CDATA[Given Navigate to 'url'.....................................................passed
+When Verify that home page is visible successfully..........................passed
+And Click 'Signup / Login' button...........................................passed
+And Verify 'Login to your account' is visible...............................passed
+And Enter correct email address and password................................passed
+And Click 'login' button....................................................passed
+And Verify 'Logged in as username' is visible...............................passed
+And Click 'Delete Account' button...........................................passed
+And Verify 'ACCOUNT DELETED!' is visible....................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

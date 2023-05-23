@@ -1,0 +1,201 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-17T12:42:56.900Z",
+        "before": [
+          {
+            "result": {
+              "duration": 31703393100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.RegisterUser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User Login",
+        "description": "",
+        "id": "automation-exercise-tests;user-login",
+        "after": [
+          {
+            "result": {
+              "duration": 700598200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7625694200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Navigate to \u0027url\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027url\u0027",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.AutomationStep.navigateToUrlUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12984400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify that home page is visible successfully",
+            "match": {
+              "location": "stepDefinitions.AutomationStep.verifyThatHomePageIsVisibleSuccessfully()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1030380200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click \u0027Signup / Login\u0027 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Signup / Login\u0027",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinitions.AutomationStep.clickSignupLoginButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108933800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Verify \u0027Login to your account\u0027 is visible",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Login to your account\u0027",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.AutomationStep.verifyNewUserSignupIsVisible(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 663620300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Enter correct email address and password",
+            "match": {
+              "location": "stepDefinitions.AutomationStep.enterCorrectEmailAddressAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6435992800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click \u0027login\u0027 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027login\u0027",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinitions.AutomationStep.clickSignupLoginButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59440300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Verify \u0027Logged in as username\u0027 is visible",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Logged in as username\u0027",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.AutomationStep.verifyNewUserSignupIsVisible(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92034200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click \u0027Delete Account\u0027 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Delete Account\u0027",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinitions.AutomationStep.clickSignupLoginButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268844800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Verify \u0027ACCOUNT DELETED!\u0027 is visible",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027ACCOUNT DELETED!\u0027",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.AutomationStep.verifyNewUserSignupIsVisible(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test02"
+          }
+        ]
+      }
+    ],
+    "name": "Automation Exercise tests",
+    "description": "",
+    "id": "automation-exercise-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/registerUser.feature",
+    "tags": []
+  }
+]
